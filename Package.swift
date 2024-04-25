@@ -1,4 +1,4 @@
-// swift-tools-version: 5.4
+// swift-tools-version: 5.9
 
 import PackageDescription
 
@@ -6,7 +6,7 @@ let package = Package(
 	name: "DSFSearchField",
 	defaultLocalization: "en",
 	platforms: [
-		.macOS(.v10_13)
+		.macOS(.v12)
 	],
 	products: [
 		.library(
